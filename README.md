@@ -4,7 +4,7 @@
 # VioletPass: A Scalable Ticket Booking System
 
 VioletPass is a robust, scalable ticket booking platform designed to simplify **event management**, **seat reservations**, and **payment processing** while ensuring high availability and fault tolerance using AWS services.
-An inital demo (not including all features) to the project can be found on this [link](https://www.youtube.com/watch?v=ihh3Op8Ay08)
+An inital demo (not including all features) to the project can be found on this [link].(https://www.youtube.com/watch?v=ihh3Op8Ay08)
 
 ---
 
