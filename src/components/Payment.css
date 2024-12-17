@@ -1,0 +1,56 @@
+.payment-page {
+	padding: 2rem;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.reservation-details {
+	margin: 1.5rem auto;
+	padding: 1rem;
+	max-width: 600px;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	text-align: left;
+}
+
+.reservation-details table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+}
+
+.reservation-details table th,
+.reservation-details table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+
+.reservation-details table th {
+	background-color: #f4f4f4;
+}
+
+.payment-actions {
+	margin-top: 2rem;
+}
+
+.payment-button {
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	background-color: #28a745;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.payment-button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+.payment-button:hover:not(:disabled) {
+	background-color: #218838;
+}

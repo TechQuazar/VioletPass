@@ -1,0 +1,109 @@
+.ticket-booking {
+	font-family: Arial, sans-serif;
+}
+
+.grid {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 8px;
+}
+.page-heading{
+	/* background: linear-gradient(90deg, #6f42c1, #5e35b1); */
+	color: rgb(111, 66, 193);
+	padding: 1.5rem 2rem;
+	/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+	text-align: center;
+	/* position: sticky; */
+	top: 0;
+	z-index: 1000;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 0;
+	/* text-transform: uppercase; */
+	letter-spacing: 1px;
+}
+
+.ticket {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	transition: all 0.2s;
+	border-radius: 4px;
+}
+
+.ticket.basic {
+	background-color: #e0ffe0;
+}
+
+.ticket.premium {
+	background-color: #ffe680;
+}
+
+.ticket.luxury {
+	background-color: #ffcccc;
+}
+
+.ticket.selected {
+	outline: 2px solid #007bff;
+	background-color: darkgreen;
+	color: white;
+}
+
+.legend {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.legend-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.legend-item .ticket {
+	margin: 0 8px 0 0;
+	width: 20px;
+	height: 20px;
+	border: none;
+}
+
+.actions {
+	margin-top: 20px;
+}
+
+.actions button {
+	font-size: 1.1rem;
+	padding: 10px 20px;
+}
+
+.confirm-ticket{
+	background-color: green;
+	color: white;
+}
+
+/* Locked ticket style */
+.ticket.locked {
+	background-color: #ff8c00;
+	color: #ffffff;
+	cursor: not-allowed;
+	opacity: 0.7;
+}
+
+/* Booked ticket style */
+.ticket.booked {
+	background-color: #dae3dc;
+	color: #155724;
+	cursor: not-allowed;
+	opacity: 0.7;
+}
